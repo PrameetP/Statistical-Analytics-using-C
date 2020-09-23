@@ -128,4 +128,4 @@ int find_minimum(unsigned char*,int);
 int print_statistics(int,int,int,int);
 
 #endif /* __STATS_H__ */
-#endif /* __STATS_H__ */
+
