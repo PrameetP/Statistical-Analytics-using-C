@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief C Program to calculate the statistical values of a given array of data
  *
- * <Add Extended Description Here>
+ * This program calculates statistical values including mean, median, maximum and minimum values
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ *
+ * @author Prameet Patil
+ * @date 24 Sept 2020
  *
  */
 
@@ -41,3 +42,34 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+int print_array(unsigned char *arr, int size){
+}
+
+
+int find_mean(unsigned char *arr, int size){
+}
+
+
+int find_median(unsigned char *arr, int size){
+}
+
+
+int sort_array(unsigned char * arr,int arr_Size){
+}
+
+
+void swap(unsigned char *first,unsigned char *second){
+}
+
+
+int find_maximum(unsigned char* arr, int size){
+}
+
+
+int find_minimum(unsigned char* arr, int size){
+}
+
+
+int print_statistics(int p_mean,int p_median,int p_max,int p_min){
+}
+
