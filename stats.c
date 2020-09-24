@@ -66,12 +66,15 @@ int print_array(unsigned char *arr, int size){
 
 
 int find_mean(unsigned char *arr, int size){
-    int tot = 0, avg = 0;
+    float tot = 0, avg = 0;
     for(int i=0;i<size;i++)
     {
         tot=tot+(*arr);
+        arr++;
     }
     avg = tot/size;
+    avg = (avg+0.5)*1; //To round off
+    avg = avg/1;       //the number to nearest integer
     return avg;
 }
 
